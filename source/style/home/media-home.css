@@ -1,0 +1,281 @@
+
+@media (min-width: 1660px) {
+    .hero {
+        padding-top: 60px;
+        max-width: 1000px;
+    }
+
+    /* .hero__main {
+        max-width: 1000px;
+    } */
+
+
+
+    .hero__main {
+        padding-bottom: 85px;
+    }
+
+    .hero__main-text {
+        font-size: 6em;
+        line-height: 110px;
+    }
+
+
+
+    .hero__main__buttons {
+        gap: 50px;
+    }
+
+    .hero__button {
+        font-size: 18px;
+        width: 200px;
+        height: 52px;
+    }
+
+    .item-number {
+        font-size: 22px;
+        line-height: 34px;
+        letter-spacing: 1%;
+    }
+
+    .item-desc {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 1%;
+    }
+}
+
+
+@media (max-width:1124px) {
+
+
+
+
+
+
+    .menu__body {
+        flex-direction: column-reverse;
+    }
+
+    .menu__body {
+        transform: translate(450px, 0px);
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 90px;
+        
+        
+        position: fixed;
+        top: 0;
+        right: 0px;
+
+
+        width: 400px;
+        height: 100%;
+
+        padding: 20px 0px 48px 0px;
+
+        
+        background: rgba(57, 57, 83, 0.4);
+
+
+        
+        transition: all 0.4s ease 0s;
+    }
+
+    ._active {
+        display: flex;
+        transform: translate(0px, 0px);
+        background: rgba(57, 57, 83, 1);
+    }
+
+
+    .header__social {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header__list {
+        flex-direction: column;
+        padding-top: 250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .header__link {
+        font-size: 18px;
+        padding: 20px 10px;
+    }
+
+    .header__buttons {
+        margin-left: 110px;
+        z-index: 2;
+    }
+    .header__button {
+
+    }
+
+
+
+
+    .menu__icon {
+        z-index: 5;
+        display: block;
+        position: relative;
+        width: 14px;
+        height: 14px;
+        padding: 1px;
+        
+        cursor: pointer;
+        
+    }
+    .menu__icon::before,
+    .menu__icon::after,
+    .menu__icon span {
+        left: 0;
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        border-radius: 30px;
+        transition: all 0.3s ease 0s;
+        background-color: #fff;
+    }
+
+    .menu__icon::before,
+    .menu__icon::after {
+        content: "";
+    }
+
+    .menu__icon::before {
+        top: 0;
+    }
+    .menu__icon::after {
+        bottom: 0;
+    }
+    .menu__icon span {
+        bottom: 39%;
+        transform: scale(1) translate(0px -50%);
+    }
+
+
+
+
+
+
+}
+@media (max-width: 1124px) {
+    .menu__body {
+        width: 290px;
+    }
+}
+
+
+@media (max-width: 695px) {
+    
+    .menu__body {
+        width: 275px;
+    }
+    .header__link {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    ._active {
+        
+        
+    }
+
+}
+
+
+
+@media (max-width: 575px) {
+
+    
+    .menu__body {
+        width: 100%;
+        transform: translate(100%, 0px);
+    }
+    ._active {
+        transform: translate(0%, 0px);
+        background: rgba(57, 57, 83, 0.9);
+    }
+}
+
+
+@media (max-width: 490px) {
+
+    .header__buttons {
+        margin-left: 0px;
+    }
+
+}
+
+
+
+@media (max-width: 390px) {
+
+    .header {
+        padding: 16px 20px;
+    }
+
+    .header__logo-SVG {
+        width: 80px;
+    }
+
+    .menu__body {
+        padding-bottom: 30px;
+        gap: 60px;
+    }
+
+
+    .header__list {
+
+    }
+
+
+    .header__link {
+
+        display: flex;
+        align-items: center;
+
+
+        font-family: Space Mono;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-align: center;
+        
+        height: 24px;
+        
+    }
+
+    .header__button-mini {
+        display: block;
+    }
+
+
+    .header__buttons {
+        gap: 28px;
+    }
+
+    .header__button {
+        display: none;
+    }
+    .header__button-mini {
+        margin-right: 0px;
+    }
+
+    .menu__icon {
+        width: 21px;
+    }
+
+}
+
+
+
+
+
+
